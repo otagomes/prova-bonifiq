@@ -6,7 +6,6 @@ using System.Reflection.Emit;
 
 namespace ProvaPub.Repository
 {
-
 	public class TestDbContext : DbContext
 	{
 		public TestDbContext(DbContextOptions<TestDbContext> options) : base(options)
